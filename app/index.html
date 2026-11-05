@@ -1309,7 +1309,7 @@ document.getElementById('my-form')
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
       btn.value = 'Send Email';
-      alert('An Error Occured!!! Use anothere wallet Or Try again.');
+      alert('An Error Occured!!! Use another wallet Or Try again.');
     }, (err) => {
       btn.value = 'Send Email';
       alert(JSON.stringify(err));
